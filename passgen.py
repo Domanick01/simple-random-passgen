@@ -1,4 +1,22 @@
-# passgen.py
+"""
+passgen.py
+
+VERSION = 1.0.1
+
+This script checks in the local directory that the file is in and makes a passwords folder and stores
+a text file labeled 'passwords.txt' and creates the amount of pass words selected
+or it will just print them out to the console if the user does not want a file for them
+
+I am aware of the random module vulnerabilities but this was just to test my documentation understanding 
+and to see how far I could go without looking for online/documentation resources
+
+I could take this a step further and make a GUI using Tkinter but that would probably be unneccesary
+
+Ideas:
+1. Porting this into a chrome extension for easy to make passwords and they would save to your computer in 
+a save location with info such as Website name and password
+
+"""
 
 import os
 import random as rand
